@@ -1,0 +1,163 @@
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+}
+
+header img {
+    width: 10rem;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.hero-image {
+    width: 100%;
+    outline: #00274C solid 2px;
+}
+
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    color: #131516;
+    background-color: #f5f7fa;
+}
+
+
+h1 {
+    font-size: 1.875rem;
+    font-weight: 600;
+    padding: 30px 10px 10px 10px;
+    text-decoration: underline solid #FFCB05 2px;
+    text-align: left;
+    text-underline-offset: 4px;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+
+h3, p {
+    font-size: 1.125rem;
+    padding: 10px 0px 20px 0px;
+    line-height: 1.4;
+}
+
+h4 {
+    font-size: 1.125rem;
+    padding: 10px 0px 0px 0px;
+    text-decoration: underline 2px #FFCB05;
+    text-underline-offset: 4px;
+}
+
+
+main p, main h2, main h3, main h4 {
+    margin: 0px 20px;
+}
+
+main ul {
+    margin: 0px 10px 0px 30px;
+}
+
+
+ul li {
+    font-size: 1.125rem;
+    padding: 10px 0px;
+    margin: 0px 20px 0px 10px;
+    line-height: 1.4;
+}
+
+ol li {
+    font-size: 1.125rem;
+    padding: 10px 0px;
+    margin: 0px 20px 0px 40px;
+    line-height: 1.4;
+}
+
+
+.skip-link {
+    background-color: #FFCB05;
+    color: #00274C;
+    font-weight: 500;
+    top: -65px;
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.skip-link:focus {
+    top: 25px;
+}
+
+
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #00274C;
+    border: 2px solid #00274C;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    background-color: #e2e2e2;
+}
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+}
+
+.resume-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    list-style: none;
+    margin: 10px 20px;
+    padding: 0;
+}
+
+.resume-grid li {
+    background-color: #f7f7f7;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #00274C;
+}
+
+
+footer {
+    background-color: #00274C;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+footer a, footer a:visited {
+    color: white;
+    text-decoration: none;
+}

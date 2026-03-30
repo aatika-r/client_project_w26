@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Networking & Connections</title>
 </head>
+
 <body>
     <header>
     <a href="#main" class="skip-link">Skip to Main Content</a>
@@ -15,7 +16,7 @@
             <ul>
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "resume.html">Resumes</a></li>
-                <li><a href = "networking.html">Networking & Connections</a></li>
+                <li><a href = "networking.html" aria-current="page">Networking</a></li>
                 <li><a href = "internship.html">Internship Search</a></li>
             </ul>
         </nav>
@@ -96,10 +97,16 @@
 
 
   <footer>
-    <p>
-      University of Michigan School of Information |
-      <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office</a>
-    </p>
-  </footer>
+  <p>
+    University of Michigan School of Information |
+    <a href="https://umich.instructure.com/courses/137916">
+      UMSI Career Development Office
+    </a> |
+    © <span id="year"></span>
+  </p>
+</footer>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Resumes</title>
 </head>
+
 <body>
 
     <header>
@@ -15,8 +16,8 @@
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
-                <li><a href = "resume.html">Resumes</a></li>
-                <li><a href = "networking.html">Networking & Connections</a></li>
+                <li><a href = "resume.html" aria-current="page">Resumes</a></li>
+                <li><a href = "networking.html">Networking</a></li>
                 <li><a href = "internship.html">Internship Search</a></li>
             </ul>
         </nav>
@@ -51,6 +52,7 @@
 
   <section>
     <h2>Resume Resources</h2>
+
     <ul class="resume-grid">
       <li>
         <a href="https://docs.google.com/document/d/1_1GfDJyVGIgE82MZjVhuWT_aB_2Hcj1NN62FUCXoR_o/edit?tab=t.0" target="_blank">
@@ -106,16 +108,24 @@
           <!-- Content taken & modified from UMGPT with the prompt, "for the same content write me some intro content and resources for a resume page" - this was after I had asked for content for the home page.
         UMGPT. (2025). UMGPT (GPT-4.1 August 25th version) [Large language model]. -->
 
-    
+
         <div></div>
         <div></div>
         <div></div>
         <div></div>
     </main>
     <footer>
-        <p>University of Michigan School of Information | <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office </a></p>
-        </footer>
-    
+  <p>
+    University of Michigan School of Information |
+    <a href="https://umich.instructure.com/courses/137916">
+      UMSI Career Development Office
+    </a> |
+    © <span id="year"></span>
+  </p>
+</footer>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 
 </html>

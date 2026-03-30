@@ -17,8 +17,8 @@
             <ul>
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "resume.html">Resumes</a></li>
-                <li><a href = "networking.html">Networking & Connections</a></li>
-                <li><a href = "internship.html">Internship Search</a></li>
+                <li><a href = "networking.html">Networking</a></li>
+                <li><a href = "internship.html" aria-current="page">Internship Search</a></li>
             </ul>
         </nav>
 
@@ -53,14 +53,12 @@
     </ul>
     <!-- Content taken & modified from UMGPT with the prompt, "for the same content write me some intro content and resources for a resume page" - this was after I had asked for content for the home page.
         UMGPT. (2025). UMGPT (GPT-4.1 August 25th version) [Large language model]. -->
-    <p>
+<br>
+    <h3>
         Also consider visiting UMSI Careerlink, which offers on-demand access to career support: internships, jobs, career coaching, career-building resources, special events and more.
-    </p>
+    </h3>
 
 
-    <ul>
-        <li><a href="https://si-umich.12twenty.com/Login" target="_blank">UMSI Careerlink</a></li>
-    </ul>
 
     <img src="images/UMSI_MastersOrientation2.jpg" alt="UMSI Masters Orientation">
     </section>
@@ -85,10 +83,12 @@
     </section>
 
     <section>
-    <h3>Upcoming Career Events</h3>
+    <h2>Upcoming Career Events</h2>
     <div>
         <img src="images/UMSI_CareerFair.jpg" alt="Students speaking with recruiters at a career fair">
-        <h4>Winter 2026 Career Fair</h4>
+    </div>
+    <br></br>
+        <h3>Winter 2026 Career Fair</h3>
         <p>
             Job & Internship Fair / In Person / 2 Days <br>
             February 3rd and 4th / 12pm – 4pm / Michigan Union
@@ -103,7 +103,7 @@
 </section>
 
 <section>
-    <h3>How Career Fairs Support Your Internship Search</h3>
+    <h2>How Career Fairs Support Your Internship Search</h2>
     <ul>
         <li>
             <strong>Connect Directly with Employers</strong><br>
@@ -125,10 +125,16 @@
 </section>
 </main>
 <footer>
-    <p>
-        University of Michigan School of Information |
-        <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office</a>
-    </p>
+  <p>
+    University of Michigan School of Information |
+    <a href="https://umich.instructure.com/courses/137916">
+      UMSI Career Development Office
+    </a> |
+    © <span id="year"></span>
+  </p>
 </footer>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
